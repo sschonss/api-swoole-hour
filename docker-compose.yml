@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  swoole-api:
+    build:
+      context: .
+    ports:
+      - "9501:9501"
